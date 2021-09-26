@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    transition: background-color 2s, top 2s;
+    transition: background-color 2s, top 2s, transform 2s;
 
 }
 
@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     font-weight: 100;
     position: absolute;
-    top: 17px;
+    top: 10%;
     right: 20px;
     left: 20px;
     display: flex;
@@ -55,12 +55,14 @@ body {
 }
 @media (min-height: 550px) {
   .hint {
-    top: 28vh;
+    top: 50%;
+    transform: translate(0, -50%);
   }
 }
 @media (min-height: 650px) {
   .hint {
-    top: 63vh;
+    top: 100%;
+    transform: translate(0, -100%);
   }
 }
 
