@@ -1,5 +1,7 @@
 # Responsive Rainbow
 
+- Simple project to learn responsiveness
+
 - Codecool Project
 
 ## Story
